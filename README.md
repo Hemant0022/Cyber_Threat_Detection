@@ -83,11 +83,6 @@ Attack Categories
 
 (Full mappings can be found inside the script.)
 
-Author
-------
-- Developed by: Your Name
-- Email: your.email@example.com
-
 
 For Detection file:
 
@@ -114,7 +109,7 @@ visualizations and alerts in an interactive dashboard.
 🧩 Project Structure
 ----------------------------------------------------
 .
-├── main.py                 # Main Streamlit dashboard app
+├── Threat_detect.py                 # Main Streamlit dashboard app
 ├── models/
 │   ├── lstm_model.pt       # Pretrained LSTM model (PyTorch)
 │   └── ...                 # Other models (e.g., sklearn .pkl)
@@ -139,7 +134,7 @@ visualizations and alerts in an interactive dashboard.
    - Put your trained LSTM model (.pt) and/or Scikit-learn model (.pkl) inside the models/ folder.
 
 4. Run the app
-   streamlit run main.py
+   streamlit run Threat_detect.py
 
 ----------------------------------------------------
 ⚙️ Controls
@@ -147,14 +142,6 @@ visualizations and alerts in an interactive dashboard.
 - Active Monitoring: Toggle live packet simulation.
 - Attack Simulation Rate: Adjust probability of simulated attacks (0 to 1).
 - Refresh Interval: Control how often the dashboard updates.
-
-----------------------------------------------------
-📧 Email Alerts (Optional)
-----------------------------------------------------
-To enable email notifications for high-risk threats:
-- Set up your SMTP configuration in logger.py
-- Add sender credentials and recipient emails
-
 ----------------------------------------------------
 📌 Future Enhancements
 ----------------------------------------------------
