@@ -36,6 +36,8 @@ Required Libraries:
 - scikit-learn
 - matplotlib
 - seaborn
+- streamlit
+- plotly
 
 Training the Models
 -------------------
