@@ -1,0 +1,15 @@
+Model trained for 10 epochs
+Final training loss: 0.001545
+Final validation loss: 0.001173
+Optimal threshold: 0.000705
+ROC AUC: 0.945948
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.81      0.88      9711
+           1       0.87      0.97      0.92     12833
+
+    accuracy                           0.90     22544
+   macro avg       0.91      0.89      0.90     22544
+weighted avg       0.91      0.90      0.90     22544
