@@ -158,5 +158,6 @@ visualizations and alerts in an interactive dashboard.
 - PyTorch (for LSTM)
 - Scikit-learn
 - Multithreading
-- Matplotlib / Plotly
+- Matplotlib
+- plotly
 
