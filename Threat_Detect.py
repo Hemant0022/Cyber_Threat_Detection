@@ -6,7 +6,7 @@ import time
 import threading
 import queue
 from collections import deque
-import plotly.graph_objects as go
+# import plotly.graph_objects as go
 import plotly.express as px
 from datetime import datetime
 import logging
